@@ -1,2 +1,2 @@
-# BSA-Communications-Merit-Badge-Website
+# BSA Communications Merit Badge Website
 Fun.
