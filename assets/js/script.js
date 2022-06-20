@@ -54,7 +54,7 @@ window.onload = () => {
     }
   }
   
-  fetch("https://script.google.com/macros/s/AKfycbzZtYu_kEXFPXRWgWfCp8qPsP4g3ae7BrGO6f0UjsxqHr2tbKxsBs5Aq8VhS0E-5mlz/exec").then(e => e.json()).then(response => {
+  fetch("https://script.google.com/macros/s/AKfycbwveycTnxXm08WW74ZgwNJRpnVe_T6TPadWW52vEB7V9ZCE0cvBvqgWTtszq_wyKJrD/exec").then(e => e.json()).then(response => {
     data = response;
     datalen = data.length;
     
@@ -122,7 +122,7 @@ window.onload = () => {
     }
   });
   
-  fetch("https://script.google.com/macros/s/AKfycbwoygN-ilaOfgUP-IxC06fvY4bp9R_JovxMHem--ROxFbvuG1zG4xCEUREmxz1XrpecgA/exec").then(e => e.text()).then(e => {
+  fetch("https://script.google.com/macros/s/AKfycbzjF5usGDCyRugLe9QVSjrxOkSoUTzo-Z1C9vlpYECQITVOSHvsIW2vVjB7AFUqJsaU/exec").then(e => e.text()).then(e => {
     navbarhtml.outerHTML = e;
   });
   
